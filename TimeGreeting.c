@@ -16,8 +16,8 @@ void main()
   timer = time(NULL); //can send null pointer 
   time_now = localtime(&timer); //takes timer and makes in current time zone
   the_time = asctime(time_now); //puts time in text form
-  printf("System Date and Time: %s \n",the_time);
-  printf("Date %2d/%2d/%4d. Time is %2d:%2d\n",
+  printf("hi System Date and Time: %s \n",the_time);
+  printf("see you Date %2d/%2d/%4d. Time is %2d:%2d\n",
        time_now->tm_mday, time_now->tm_mon, time_now->tm_year + 1900, 
        time_now->tm_hour, time_now->tm_min);
   do
